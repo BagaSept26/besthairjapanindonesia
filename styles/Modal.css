@@ -1,0 +1,41 @@
+.modal {
+    position: fixed;
+    inset: 20%;
+    background: hsl(var(--clr-glass));
+    backdrop-filter: blur(1.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    color: var(--clr-white);
+    cursor: pointer;
+}
+.inputs {
+    width: 70%;
+    display: flex;
+}
+.inputs input {
+    padding: 14px;
+    width: 100%;
+    background: hsl(var(--clr-glass));
+    border: none;
+    outline: none;
+    color: var(--clr-white);
+}
+.inputs input::placeholder {
+    color: var(--clr-white);
+}
+.inputs button {
+    padding:1em 2em;
+    margin-inline: 1rem;
+    background: hsl(var(--clr-glass));
+    border: none;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+}
